@@ -28,8 +28,3 @@ const startServer = async () => {
 
 startServer();
 
-// adegbitegodspower2020_db_user
-// M3P2wEJzRyESMtOD
-// mongodb+srv://adegbitegodspower2020_db_user:M3P2wEJzRyESMtOD@cluster0.k8at5sl.mongodb.net/
-
-// cors: cross origin resource sharing
