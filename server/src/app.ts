@@ -9,7 +9,7 @@ const app = express(); // was to start up the server in express
 const PORT = process.env.PORT || 6741;
 
 // CORS: only the Client url address address my call this API
-app.use(cors({ origin: process.env.CLIENT_URL || "http://localhost:5173/" }));
+app.use(cors({ origin: process.env.CLIENT_URL || "http://localhost:5173" }));
 // converts every request to json (javascript format)
 app.use(express.json());
 
@@ -27,4 +27,3 @@ const startServer = async () => {
 };
 
 startServer();
-
